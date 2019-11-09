@@ -1,0 +1,72 @@
+	{% load static from staticfiles %}
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+
+	<title>
+		Code Hub
+	</title>
+
+	<script src="https://kit.fontawesome.com/4aba25ae5d.js" crossorigin="anonymous"></script>
+
+	  		<link rel="stylesheet" href="{% static 'hhh.css' %}">
+</head>
+
+
+<body>
+
+<div class="search-box">
+	<input class="search-txt" type="text" name="" placeholder="Cauta aici">
+	<a class="search-btn" href="#">
+		<i class="fas fa-search"></i>
+	</a>
+	
+</div>
+
+<div id="bar">
+	<div class="container-1">
+			<p>
+				<a href="#"><i class="fas fa-cut"></i>Cabinet Local</a>
+			</p>
+	</div>
+</div>
+
+
+<div class="middle">
+	<div class="menu">
+		<li class="item" id="profile">
+			<a href="#profile" class="btn"><i class="fas fa-user-alt"></i>Profil</a>
+			<div class="smenu">
+				<a href="#">Posturi</a>
+				<a href="#">Desene</a>
+					</div>			
+		</li>
+
+		<li class="item" id="messages">
+			<a href="#messages" class="btn"><i class="fas fa-envelope"></i>Mesage</a>
+			<div class="smenu">
+				<a href="#">Noi</a>
+				<a href="#">Trimise</a>
+			</div>
+		</li>
+
+
+		<li class="item" id="settings">
+			<a href="#settings" class="btn"><i class="fas fa-cogs"></i>Setari</a>
+			<div class="smenu">
+				<a href="#">Limbaj</a>
+				<a href="#">Parola</a>
+				
+			</div>
+		</li>
+
+		<li class="item">
+			<a href="/" class="btn"><i class="fas fa-sign-out-alt"></i>Logout</a>
+		</li>
+	</div>
+</div>	
+
+</body>
+</html>
